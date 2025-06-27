@@ -1,0 +1,36 @@
+.resume-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  border: 2px solid #3498db;
+  border-radius: 4px;
+  background-color: #3498db;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.resume-button:hover {
+  background-color: #2980b9;
+  border-color: #2980b9;
+}
+
+.resume-button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+/* If using the button-outline class from your CSS */
+.btn-outline.resume-button {
+  background-color: transparent;
+  color: #3498db;
+}
+
+.btn-outline.resume-button:hover {
+  background-color: #3498db;
+  color: white;
+}
