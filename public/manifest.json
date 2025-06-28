@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Francis Meso",
+  "name": "Francis Meso - ML Engineer, Economist & Statistician",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +20,9 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#0066cc",
+  "background_color": "#ffffff",
+  "description": "Professional portfolio showcasing machine learning, economic analysis, and statistical modeling projects.",
+  "orientation": "portrait-primary",
+  "categories": ["portfolio", "professional", "economics", "data science"]
 }
